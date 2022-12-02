@@ -1,0 +1,41 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(219, 168, 168);
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: IndianRed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  grid-template-rows: 160px repeat(5, 75px);
+  background-color: rgb(172, 53, 53);
+  padding: 15px;
+  border-radius: 32px;
+  box-shadow: 12px 8px 0px 5px rgb(112, 7, 7);
+}
+
+button {
+  cursor: pointer;
+  margin: 5px;
+  padding: 0;
+  border-radius: 32px;
+  font-size: 1cm;
+  border: none;
+  background-color: rgb(172, 53, 53);
+  box-shadow: 5px 5px 10px -3px rgb(112, 7, 7), -5px -5px 500px 3px rgb(228, 131, 131);
+}
+
+button:active {
+  background-color: rgb(112, 7, 7);
+}
