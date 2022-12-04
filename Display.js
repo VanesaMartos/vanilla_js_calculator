@@ -1,3 +1,5 @@
+
+
 class Display {
   constructor(displayPrevious, displayActual) {
     this.displayActual = displayActual;
@@ -53,4 +55,6 @@ class Display {
     this.actual = this.calculator[this.operatorType](previous, actual);
   }
 
-  }
+}
+
+module.exports = Display

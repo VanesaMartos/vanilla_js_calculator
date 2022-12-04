@@ -1,0 +1,22 @@
+{
+  "name": "vanilla_js_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanesaMartos/vanilla_js_calculator.git"
+  },
+  "author": "Vanesa Martos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanesaMartos/vanilla_js_calculator/issues"
+  },
+  "homepage": "https://github.com/VanesaMartos/vanilla_js_calculator#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
