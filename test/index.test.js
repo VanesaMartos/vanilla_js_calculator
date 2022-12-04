@@ -6,7 +6,7 @@ test('add function should return the sum of params', () => {
   expect(testCalculator.add(1, 1)).toBe(2);
 })
 
-test('add negative numbers should be a negative number', () => {
+test('add negative, numbers should be a negative number', () => {
   expect(testCalculator.add(-1, -1)).toBe(-2);
 })
 
