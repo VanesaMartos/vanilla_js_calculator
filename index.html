@@ -8,32 +8,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"/>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5234/5234557.png"/>
     <link rel="stylesheet" href="index.css">
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="Calculator.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
   </head>
   <body>
     <div class="container">
       <div class="calculator">
         <div class="display">
-          <div id="enter-value"></div>
-          <div id="result"></div>
+          <div id="previous"></div>
+          <div id="actual"></div>
         </div>
-        <button class="doublecol">C</button>
-        <button>&larr;</button>
-        <button class="operator">/</button>
+        <button class="doublecol" onclick="display.deleteAll()">C</button>
+        <button onclick="display.delete()">&larr;</button>
+        <button class="operator" value="divide">/</button>
         <button class="number">7</button>
         <button class="number">8</button>
         <button class="number">9</button>
-        <button class="operator">X</button>
+        <button class="operator" value="multiply">X</button>
         <button class="number">4</button>
         <button class="number">5</button>
         <button class="number">6</button>
-        <button class="operator">-</button>
+        <button class="operator" value="substract">-</button>
         <button class="number">1</button>
         <button class="number">2</button>
         <button class="number">3</button>
-        <button class="operator">+</button>
+        <button class="operator" value="add">+</button>
         <button class="number">0</button>
         <button class="number">.</button>
-        <button class="doublecol">=</button>
+        <button class="doublecol operator" value="equal">=</button>
       </div>
     </div>
   </body>
